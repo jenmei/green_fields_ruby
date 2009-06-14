@@ -35,6 +35,13 @@ Find out the IP address of the VM then from the sprinkle directory, type:
 
 > sprinkle -c -v -s config/ruby_outreach.rb
 
-This should be all that's needed to install the list above. 
+This should be all that's needed to install the list above.
+
+To do and possible to do items:
+
+* Finish testing. Not entirely sure it all works.
+* Figure out how to mark NetBeans icon on the desktop as trusted (right now, if you click on it, it asks you whether you trust it. After clicking yes, you need to double-click on the icon again to launch)
+* Separate out NetBeans and Java. 
+* Reorganize files -- these packages are a mix of things from various sources plus some new code.
 
 [1]: http://changelog.complete.org/archives/496-how-to-solve-the-following-packages-cannot-be-authenticated
