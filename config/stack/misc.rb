@@ -43,3 +43,12 @@ package(:heroku) do
   end
   requires(:rubygems)
 end
+
+package(:rails) do
+  description "Installs Rails"
+  gem('rails')
+  verify do
+    has_gem('rails')
+  end
+  requires(:rubygems)
+end

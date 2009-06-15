@@ -9,7 +9,9 @@ policy :ruby_outreach, :roles => :app do
 #  requires :keyring
   requires :webserver                 # Apache
   requires :appserver                 # Passenger
-  requires :ruby                      # Ruby Enterprise edition
+  requires :ruby
+  requires :rubygems
+  requires :rails
   requires :mysql
   requires :mysql_driver
   requires :sqlite3
